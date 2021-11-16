@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form name="quiz" id="quiz">
+    <div class="container">
+        <!-- Heading -->
+        <h1>Quiz App</h1>
+        
+        <!-- Question 1 -->
+        <div class="questions">
+            <!-- Question 1 text -->
+            <label class="lbl" name="q1"> 1. Inside which HTML element do you put the JavaScript?</label><br><br>
+            
+            <!-- Question 1 options -->
+            <p><input type="radio" name="q1" value="A"> &lt; script &gt;<br></p> 
+            <p><input type="radio" name="q1" value="B"> &lt; js &gt;<br> </p> 
+            <p><input type="radio" name="q1" value="C"> &lt; javascript &gt;<br></p>
+            <br>
+        </div>
+        
+        <!-- Question 2 -->
+        <div class="questions">
+            <!-- Question 2 text -->
+            <label class="lbl" name="q2"> 2. What is the correct JavaScript synatx to write "Hello World"?</label><br><br>
+
+            <!-- Question 2 options -->
+            <p><input type="radio" name="q2" value="A"> The &lt; head  &gt; section<br></p>
+            <p><input type="radio" name="q2" value="B"> Both the &lt;body  &gt;and &lt;head &gt;section<br> </p>
+            <p><input type="radio" name="q2" value="C"> The body &lt;section &gt;<br></p>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="questions">
+            <!-- Question 3 text -->
+            <label class="lbl" name="q3"> 3. What is the correct syntax for referring to an external script called "File.js"?</label><br><br>
+            
+            <!-- Question 3 options -->
+            <p><input type="radio" name="q3" value="A"> &lt;script href="File.js"&gt;<br></p> 
+            <p><input type="radio" name="q3" value="B"> &lt;script name="File.js"&gt;<br> </p>
+            <p><input type="radio" name="q3" value="C"> &lt;script src="File.js"&gt;<br><br>
+        </div></p> 
+
+        <!-- Question 4 -->
+        <div class="questions">
+            <!-- Question 4 text -->
+            <label class="lbl" name="q4"> 4. How to write an IF statement in JavaScript?</label><br><br>
+            
+            <!-- Question 4 options -->
+            <p><input type="radio" name="q4" value="A"> if i=5 then<br></p> 
+            <p><input type="radio" name="q4" value="B"> if i=5<br> </p>
+            <p><input type="radio" name="q4" value="C"> if (i==5)<br><br>
+            </div></p> 
+
+        <!-- Question 5 -->
+        <div class="questions">
+            <!-- Question 5 text -->
+            <label class="lbl" name="q5"> 5. How to do you create function in JavaScript?</label><br><br>
+
+            <!-- Question 5 options -->
+            <p><input type="radio" name="q5" value="A"> function myfunction()<br></p> 
+            <p><input type="radio" name="q5" value="B"> function = myfunction()<br> </p>
+            <p><input type="radio" name="q5" value="C"> function:myfunction</p> <br>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="questions">
+            <!-- Question 6 text -->
+            <label class="lbl" name="q6"> 6. Which are operators? (Choose two)</label><br><br>
+            
+            <!-- Question 6 options -->
+            <p><input type="checkbox" name="q6" id="q6A" value="A">
+            <label>//</label><br></p>
+            <p><input type="checkbox" name="q6" id="q6B" value="B">
+            <label>++</label><br></p>
+            <p><input type="checkbox" name="q6" id="q6C" value="C">
+            <label>==</label><br></p>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="questions">
+            <!-- Question 7 text -->
+            <label class="lbl" name="q7"> 7. Which are not arrays? (Choose two)</label><br><br>
+            
+            <!-- Question 7 options -->
+            <p><input type="checkbox" name="q7" id="q7A" value="A">
+            <label>const cars = ("Saab", "Volvo", "BMW");</label><br></p>
+            <p><input type="checkbox" name="q7" id="q7B" value="B">
+            <label>const cars = ["Saab", "Volvo", "BMW"];</label><br></p>
+            <p><input type="checkbox" name="q7" id="q7C" value="C">
+            <label>const cars: ["Saab", "Volvo", "BMW"];</label><br></p>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="questions">
+            <!-- Question 8 text -->
+            <label class="lbl" name="q8"> 8. What are two ways to declare a JavaScript variable?</label><br><br>
+            
+            <!-- Question 8 options -->
+            <p><input type="checkbox" name="q8" id="q8A" value="A">
+            <label>var</label><br></p>
+            <p><input type="checkbox" name="q8" id="q8B" value="B">
+            <label>let</label><br></p>
+            <p><input type="checkbox" name="q8" id="q8C" value="C">
+            <label>equal</label><br></p>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="questions">
+            <!-- Question 9 text -->
+            <label class="lbl" name="q9"> 9. What is a block element? (Choose two)</label><br><br>
+            
+            <!-- Question 9 options -->
+            <p><input type="checkbox" name="q9" id="q9A" value="A">
+            <label>Does not have a top and bottom margin</label><br></p>
+            <p><input type="checkbox" name="q9" id="q9B" value="B">
+            <label>Always starts on a new line</label><br></p>
+            <p><input type="checkbox" name="q9" id="q9C" value="C">
+            <label>Takes up the full width available</label><br></p>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="questions">
+            <!-- Question 10 text -->
+            <label class="lbl" name="q10"> 10. How do you write JavaScript comments? (Choose two)</label><br><br>
+            
+            <!-- Question 10 options -->
+            <p><input type="checkbox" name="q10" id="q10A" value="A">
+            <label>// Like this</label><br></p>
+            <p><input type="checkbox" name="q10" id="q10B" value="B">
+            <label>!-- Like this --></label><br></p>
+            <p><input type="checkbox" name="q10" id="q10C" value="C">
+            <label>/* Like this */</label><br></p>
+        </div>
+
+        <!-- Bottom of page -->
+        <div class="bottom">
+            <!-- Submit button -->
+            <input type="button" class="btn" value="Submit" onclick="check()">
+            
+            <!-- Score -->
+            <p id="result"> </p>
+        </div>
+    </div>
+</form>
+
+
+</body>
+</html>
